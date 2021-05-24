@@ -11,4 +11,5 @@ os.environ['SPARK_HOME'] = r'D:\spark\spark-3.1.1-bin-hadoop2.7'
 os.environ['HADOOP_HOME'] = r'D:\spark\spark-3.1.1-bin-hadoop2.7'
 os.environ['PYSPARK_DRIVER_PYTHON'] = 'jupyter'
 os.environ['PYSPARK_DRIVER_PYTHON_OPTS'] = 'notebook'
+Path = 'D:\spark\spark-3.1.1-bin-hadoop2.7\bin'
 ```
