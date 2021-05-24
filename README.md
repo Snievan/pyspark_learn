@@ -87,3 +87,16 @@ pandas_df2 = df2.toPandas()
 # pandas_df2.head(5)
 print(pandas_df2.head())
 ```
+```
+import findspark
+findspark.init()
+findspark.find()
+
+from pyspark import SparkContext
+sc = SparkContext('local','test-app')
+
+data  = sc.parallelize([4,5,6,7])
+type(data)
+
+data.map(lambda x:x**2).collect()
+```
