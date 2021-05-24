@@ -13,3 +13,10 @@ os.environ['PYSPARK_DRIVER_PYTHON'] = 'jupyter'
 os.environ['PYSPARK_DRIVER_PYTHON_OPTS'] = 'notebook'
 Path = 'D:\spark\spark-3.1.1-bin-hadoop2.7\bin'
 ```
+## in anaonda promt
+```cmd
+pip install findspark
+
+pin install pyspark
+
+```
