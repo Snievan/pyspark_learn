@@ -37,11 +37,12 @@ spark = SparkSession.builder.getOrCreate()
 df = spark.sql('''select 'spark' as hello ''')
 df.show()
 ```
+
+## connect mysql using jdbc
+```python
 from pyspark.sqlimportSQLContext
 
 sqlContext = SQLContext(sc)
 dataframe_mysql = sqlContext.read.format("jdbc").options(url="jdbc:mysql://127.0.0.1:3306/spark_db", driver="com.mysql.jdbc.Driver", dbtable="spark_table", user="root", password="root").load()
 dataframe_mysql.show()
-————————————————
-版权声明：本文为CSDN博主「victory0508」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/victory0508/article/details/68067716
+```
