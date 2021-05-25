@@ -3,6 +3,10 @@
 ## getting_started
 https://spark.apache.org/docs/latest/api/python/getting_started/quickstart.html#Working-with-SQL
 
+
+## install tutorial
+https://changhsinlee.com/install-pyspark-windows-jupyter/
+
 ## java version
 
 https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox
